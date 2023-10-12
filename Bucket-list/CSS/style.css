@@ -1,0 +1,1041 @@
+/* Global changes */
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Helvetica;
+    line-height: 150%;
+}
+
+:focus {
+    outline-color: red;
+}
+
+header {
+    font-size: 12px;
+    padding: 2%;
+}
+
+.sideImg {
+    display: inline-block;
+    width: 32%;
+    margin-left: 10%;
+
+}
+
+section {
+    width: 70%;
+    margin-left: 5%;
+    padding: 5%;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    box-shadow: -9px 10px 23px 2px rgba(0, 0, 0, 0.46);
+    margin: 0 10%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 25px;
+    max-height: 100%;
+}
+
+aside {
+    display: inline-block;
+    margin-top: 2%;
+    width: 58%;
+    float: left;
+    line-height: 200%;
+}
+
+
+/* navbar */
+.menu {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0%;
+    border-bottom: 5px solid darkgreen;
+    z-index: 3;
+}
+
+.homeInfo {
+    display: inline-block;
+    padding-bottom: 3%;
+}
+
+.homeText {
+    float: left;
+    margin-left: 7%;
+    width: 40%;
+    font-size: 17px;
+}
+
+.homeMachine {
+    float: right;
+    width: 40%;
+    margin-top: -4%;
+    margin-right: 7%;
+}
+
+.prototypeSites ul li {
+    display: inline-block;
+}
+
+.prototypeSites {
+    font-size: 20px;
+    margin-left: 20%;
+}
+
+.logo {
+    float: left;
+    width: 13%;
+    margin-top: 0.5%;
+    background-color: white;
+    padding-left: 1%;
+}
+
+.dropDown {
+    display: none;
+    position: absolute;
+}
+
+.prototypeBox {
+    width: 100%;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.dropDownLanguage {
+    display: none;
+}
+
+.logoImg {
+    width: 100%;
+}
+
+.menuContent ul {
+    width: 80%;
+    padding-top: 1.35%;
+    margin-left: 20%;
+}
+
+.line {
+    padding: 0.5% 0%;
+    width: 1%;
+    border: solid black;
+    margin-right: 4%;
+}
+
+.menuContent li {
+    display: inline-block;
+    width: 15%;
+}
+
+.menu .active {
+    color: white;
+    background-color: black;
+    border: solid black 2px;
+}
+
+.menuContent li a {
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    line-height: 0%;
+}
+
+.menuContent li a:hover {
+    background-color: white;
+    color: black;
+    border: solid black 2px;
+}
+
+.language ul {
+    width: 100%;
+    margin: 0% 0% 0% 12%;
+}
+
+.language li {
+    padding: 0% 12% 0% 3%;
+    width: 33%
+}
+
+.language li a:hover {
+    border: solid black 4px;
+    padding: 3% 5%;
+}
+
+.active2 {
+    background-color: orange;
+    padding: 3% 5%;
+    color: black;
+    border: solid black 4px;
+}
+
+/* main */
+.backgroundImage {
+    opacity: 0.8;
+}
+
+.HomeTitle {
+    padding-top: 1%;
+    padding: absolute;
+    margin-top: -50px;
+    color: black;
+    opacity: 8;
+    width: 90%;
+    margin-top: -15%;
+    margin-left: 5%;
+    padding-bottom: 15%;
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    text-align: left;
+    align-content: center;
+    background-color: aliceblue;
+    padding-top: 0.5%;
+    padding-bottom: 5%;
+}
+
+h1 {
+    /* Global */
+    font-size: 3em;
+    text-align: center
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.homeVideo video {
+    width: 100%;
+}
+
+.homeVideo {
+    width: 75%;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+.downloadLinks {
+    width: 35%;
+    display: block;
+    margin-left: 50%;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.phonePrototype {
+    width: 100%;
+}
+
+.indexImg {
+    width: 100%;
+    height: 10%;
+}
+
+.homeImg {
+    width: 100%;
+    height: 40em;
+}
+
+.Stores {
+    margin-top: -35%;
+    margin-left: 40%;
+    padding-bottom: 15%;
+}
+
+.statProblem {
+    width: 100%;
+    height: auto;
+}
+
+.prototypeSites {
+    width: 100%;
+}
+
+.prototypeSites ul li a {
+    border: solid black 3px;
+    border-radius: 15px;
+}
+
+.prototypeSites li {
+    margin-left: 5%;
+    width: 25%;
+}
+
+.prototypeSites ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 3% 15%;
+}
+
+.prototypeSites .active {
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: darkorange;
+    text-decoration: none;
+}
+
+.MachineImg {
+    width: 60%;
+}
+
+.MachineText {
+    width: 100%;
+}
+
+/*SlideShow*/
+.imageTag {
+    width: 25%;
+
+}
+
+.textBelow {
+    width: 100%;
+    padding: 1%;
+    border-bottom: solid black 3px;
+    border-top: solid black 3px;
+}
+
+.imageText {
+    float: left;
+    width: 70%;
+    margin-top: 5%;
+}
+
+.choices {
+    width: 100%;
+    margin-left: 7%;
+    margin-bottom: 1%;
+}
+
+.Next,
+.Back {
+    font-size: 30px;
+    padding: 1% 20%;
+    cursor: pointer;
+    margin-right: 2%;
+    border: solid black 1px;
+}
+
+.aboutUsPics {
+    width: 30%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.TrashPic {
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-left: 3%;
+    margin-top: -5%;
+}
+
+.TrashPicNO {
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-left: 3%;
+    margin-top: -3%;
+}
+
+.TrashPic2 {
+    width: 25%;
+}
+
+.slideHeader {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Sponsor */
+.SponsorDiv {
+    width: 31%;
+    display: inline-block;
+    text-align: center;
+    float: none;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+.sponsorDivText {
+    width: 96%;
+    padding: 2%;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: darkgreen;
+    overflow: hidden;
+    text-align: center;
+    bottom: 0%;
+    border-top: 5px solid white;
+    padding-bottom: 2%;
+    margin-top: 0%;
+    color: white;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+/*prototype*/
+.Machine {
+    width: 25%;
+}
+
+.prototypeBoxMachine {
+    display: inline-block;
+}
+
+.sideImgMachine {
+    width: 25%;
+}
+
+.slideMachine {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.slideMachineText {
+    width: 50%;
+}
+
+.slideNumber {
+    font-size: 25px;
+    margin: 1% 0% 2% 45%;
+}
+
+.slideNumberMachine {
+    margin: 2% 0% 1% 48%;
+}
+
+.backToSolution {
+    margin-top: 5%;
+}
+
+.backToSolution ul li {
+    width: 100%;
+}
+
+/*Media query*/
+@media(max-width: 3000px) {
+    .textBelow {
+        margin-top: 2%;
+    }
+}
+
+@media(max-width: 1400px) {
+    .homeImg {
+        height: 35em;
+    }
+
+
+}
+
+@media(max-width: 1260px) {
+
+    .menuContent li a {
+        font-size: 20px;
+    }
+
+    .menuContent ul {
+        margin-top: -0.2%;
+    }
+
+    .SponsorDiv {
+        width: 25%;
+        margin-right: 5%;
+    }
+    .homeText {
+        margin-left: 7%;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .menuContent li a {
+        font-size: 18px;
+    }
+
+    .menuContent ul {
+        margin-top: -0.5%;
+    }
+
+    .homeText {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 1030px) {
+    .logo {
+        width: 16%;
+    }
+
+    .homeImg {
+        height: 35em;
+    }
+
+    .menuContent ul {
+        margin-top: 0%;
+    }
+
+    .menuContent li {
+        width: 14%;
+    }
+
+    .menuContent li a {
+        font-size: 18px;
+    }
+
+    .SponsorDiv p {
+        font-size: 18px;
+    }
+
+    aside {
+        font-size: 13px;
+
+    }
+
+    .imageText {
+        font-size: 20px;
+    }
+
+    .slideMachineText {
+        font-size: 16px;
+    }
+
+    .slideNumberMachine {
+        margin: 0% 0% 1% 48%;
+    }
+
+    .main {
+        padding-top: 2%;
+    }
+
+    .prototypeSites li a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 900px) {
+    aside {
+        padding-top: 0%;
+    }
+    .slideNumber {
+        font-size: 23px;
+        margin: 1% 0% 2% 43%;
+    }
+
+
+    .headerMachine {
+        font-size: 25px;
+    }
+    .homeText {
+        font-size: 10px;
+    }
+
+    .MachineImg {
+        width: 70%;
+    }
+
+    .menuContent li a {
+        font-size: 16px;
+    }
+
+    .menuContent ul {
+        margin-top: -0.2%;
+    }
+
+    .imageTag {
+        padding-top: 3%;
+        width: 30%;
+        margin-left: 36%;
+    }
+
+    .slideMachine {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .imageText {
+        width: 100%;
+        font-size: 15px;
+        float: none;
+    }
+
+    .prototypeSites li a {
+        font-size: 14px;
+    }
+
+    .backToSolution {
+        margin-left: 12%
+    }
+
+}
+
+@media(max-width: 800px) {
+    .dropDownLanguage {
+        display: none;
+        z-index: 5;
+    }
+
+    .tablets {
+        display: block;
+    }
+
+    aside {
+        font-size: 13px;
+    }
+    
+
+    .aboutUsPics {
+        width: 50%;
+        margin-top: 9%;
+        margin-bottom: 9%;
+    }
+
+    .menuContent {
+        display: none;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .dropDownMenu {
+        width: 15%;
+        margin-left: 50%;
+        margin-top: 0%;
+        padding-bottom: 9%;
+    }
+
+    .dropDownMenuImg {
+        width: 35%;
+    }
+
+    .dropDownContent a {
+        font-size: 23px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        padding: 1% 3%;
+        width: 50%;
+        margin-left: 20%;
+        margin-bottom: 2%;
+    }
+
+    .dropDownContent .active {
+        border-style: none;
+        border-bottom: solid black 3px;
+    }
+
+
+    .dropDownLanguage a {
+        border: solid black 5px;
+        border-radius: 5%;
+        padding: 1%;
+        margin-left: 15%;
+        margin-top: 2%;
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropDownLanguage {
+        margin-left: 70%;
+        margin-top: 1.3%;
+    }
+
+    .dropDownLanguage .active2 {
+        background-color: orange;
+    }
+
+    .dropDownContent {
+        display: none;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        border-bottom: solid darkgreen 5px;
+        padding-top: 2%;
+    }
+
+    .dropDownMenu {
+        display: block;
+        z-index: 2;
+        margin-top: -6%;
+    }
+
+    .dropDown {
+        margin-top: 6%;
+        display: block;
+        z-index: 2;
+    }
+
+    .dropDownMenu .dropDownbtn:checked ~ .dropDownContent {
+        display: block;
+        background-color: white;
+        overflow: visible;
+        z-index: 3;
+
+    }
+
+    .main {
+        padding-top: 5%;
+    }
+
+}
+
+@media(max-width: 790px) {
+    .homeImg {
+        height: 24em;
+    }
+    
+    .homeMachine {
+        display: inline-block;
+        float: none;
+        width: 100%;
+        position: relative;
+        margin-top: 5%;
+    }
+
+    .slideHeader {
+        font-size: 20px;
+    }
+
+    .headerMachine {
+        font-size: 16px;
+    }
+
+    .sideTitles {
+        font-size: 1.7em;
+    }
+
+    .homeText {
+        width: 100%;
+        font-size: 15px;
+        margin: 0%;
+    }
+   
+.homeMachine {
+    width: 55%;
+    margin: 0%;
+    margin-left: 24%;
+}
+    .homeVideo {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .prototypeSites li a {
+        font-size: 10px;
+    }
+
+    .prototypeSites li {
+        width: 39%;
+    }
+
+    .prototypeSites {
+        margin-left: 13%;
+    }
+
+    .backToSolution {
+        margin-left: 20%;
+    }
+
+    .backToSolution li a {
+        font-size: 15px;
+    }
+
+    .backToSolution {
+        margin-left: 13%;
+    }
+
+}
+
+@media(max-width: 690px) {
+    .logo {
+        width: 20%;
+    }
+
+    .menuContent li a {
+        font-size: 13px;
+    }
+
+    .menuContent li {
+        width: 14%;
+    }
+
+    .SponsorDiv {
+        width: 45%;
+        margin-right: 0%;
+        margin-left: 3%;
+    }
+
+    .lastSponsor {
+        margin-left: 20%;
+        width: 50%;
+    }
+
+    .menuContent ul {
+        margin-top: -0.4%;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    aside {
+        font-size: 10px;
+    }
+
+    .prototypeSites ul li a {
+        font-size: 15px;
+    }
+
+    .prototypeSites {
+        margin-left: 8%;
+    }
+
+    .MachineImg {
+        width: 85%;
+    }
+
+    .dropDownLanguage {
+        margin-left: 63%;
+        margin-top: 1%;
+        width: 38%;
+    }
+
+    .dropDownMenu {
+        margin-left: 45%;
+    }
+
+    .imageTag {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    .slideMachine {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+@media(max-width: 550px){
+    .sponsorDivText p{
+        font-size: 16px;
+    }
+    .slideNumber {
+        font-size: 20px;
+        margin: 1% 0% 2% 38%;
+    }
+    .choices{
+        margin-left: 4%;
+    }
+
+}
+
+/*Mobile layout*/
+@media(max-width: 500px) {
+    section{
+        padding-top: 10%;
+    }
+    .homeImg {
+        height: 22em;
+        margin-top: -5%;
+    }
+
+    .slideHeader {
+        font-size: 18px;
+    }
+
+    .headerMachine {
+        font-size: 14px;
+    }
+
+    .Names {
+        font-size: 1.5em;
+    }
+
+    .aboutUsPics {
+        width: 80%;
+        margin-bottom: 13%;
+        margin-top: 13%;
+    }
+
+
+    .prototypeSites ul li {
+        display: block;
+        text-align: center;
+        margin: 5% -10%;
+        width: 100%;
+    }
+
+    .prototypeSites ul li a {
+        margin: 0%;
+        font-size: 10px;
+    }
+
+    .sideTitles {
+        font-size: 1.2em;
+    }
+
+    .backToSolution {
+        margin: 0;
+        margin-top: 7%;
+        margin-left: 10%;
+    }
+
+    .backToSolution li a {
+        font-size: 15px;
+    }
+
+    .lastSponsor {
+        margin: 0;
+    }
+
+    .SponsorDiv {
+        display: inline-block;
+        float: none;
+        width: 100%;
+        position: relative;
+        font-size: 5px;
+    }
+
+    .phonePrototype {
+        margin-left: 50%;
+        display: block;
+    }
+
+    .sideImg {
+        width: 40%;
+    }
+
+    aside {
+        margin-top: 1%;
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+        padding-bottom: 0%;
+        display: block;
+    }
+
+    .MachineImg {
+        margin-left: -60%;
+        width: 110%;
+    }
+
+    p {
+        padding-top: 3%;
+        font-size: 18px;
+    }
+
+    .imageTag {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .slideMachine {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .imageText,
+    .slideMachineText {
+        width: 100%;
+        font-size: 15px;
+
+    }
+
+    .dropDown {
+        margin-top: 25%;
+    }
+
+    .dropDownMenuImg {
+        width: 75%;
+    }
+
+    .dropDownMenu {
+        margin-left: 80%;
+        margin-top: -23%;
+    }
+
+
+    .dropDownContent .active {
+        border-style: none;
+        border-bottom: solid black 3px;
+    }
+
+    .dropDownLanguage a {
+        margin-left: 20%;
+    }
+
+    .dropDownLanguage .active2 {
+        background-color: orange;
+    }
+
+    .dropDownLanguage {
+        border-top: solid black 5px;
+        width: 100%;
+        margin-left: 0%;
+        display: block;
+    }
+
+    .tablets {
+        display: none;
+    }
+
+
+
+    .HomeTitle {
+        font-size: 40%;
+        margin-top: -40%;
+    }
+
+    .main {
+        margin-top: 15%;
+    }
+
+    .logo {
+        width: 40%;
+        padding-left: 2%;
+        margin-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .MachineText {
+        margin-left: 49%;
+    }
+
+}
+@media(max-width: 350px){
+    .slideNumber {
+        margin: 1% 0% 2% 30%;
+    }
+
+    .choices{
+        margin-left: 0%;
+    }
+}
+@media(max-width: 300px) {
+    .dropDownContent li a {
+        font-size: 13px;
+    }
+
+    header {
+        font-size: 5px;
+    }
+}
