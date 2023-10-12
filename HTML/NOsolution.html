@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kisan Srirangan, Khalid Ahmed Farah, Lars Robertbuell, Miriam Chaib, Dani Tran, Abisan Ganeshu, Arron Albert">
+    <meta name="description" content="Her lanserer vi løsningen vår for de som ønsker å være med til å skape positiv verden. GreenRoutine er både en app og en maskin som jobber mot å gi mennesker og grunn til å resirkulere.">
+    <meta charset="UTF-8">
+    <title>Løsningen - Green Routine</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../Pictures/favicon.png" type="image/png">
+    <!--<script src="../Javascript/final.js"></script>-->
+</head>
+
+<body>
+
+    <nav class="menu">
+        <div class="logo">
+            <a href="../HTML/NOmainPage.html"><img class="logoImg" src="../Pictures/LOGO2.png" title="Green Routine" alt="Logo, Green Routine"></a>
+        </div>
+        <div class="menuContent">
+            <ul>
+                <li><a style="margin-left: 12%;" href="../HTML/NOmainPage.html">Hjem</a></li>
+                <li><a tabindex="0" href="../HTML/NOproblem.html">Problemet</a></li>
+                <li><a tabindex="0" class="active" href="../HTML/NOsolution.html">Løsningen</a></li>
+                <li><a tabindex="0" href="../HTML/NOaboutUs.html">Om oss</a></li>
+                <span class="line"></span>
+                <li><a href="solution.html">English</a></li>
+                <li><a class="active2" href="NOsolution.html">Norsk</a></li>
+            </ul>
+        </div>
+
+        <div class="dropDown">
+            <div class="dropDownMenu">
+                <input type="checkbox" style="display: none;" id="dropDownbtn" class="dropDownbtn">
+                <label for="dropDownbtn"><img tabindex="0" src="../Pictures/MenuGreen.png" class="dropDownMenuImg" alt="Dropdown Menu Image"></label>
+
+                <div class="dropDownContent">
+
+                    <a tabindex="0" href="../HTML/NOmainPage.html">Hjem</a>
+                    <a tabindex="0" href="../HTML/NOproblem.html">Problemet</a>
+                    <a tabindex="0" class="active" href="../HTML/NOsolution.html">Løsningen</a>
+                    <a tabindex="0" href="../HTML/NOaboutUs.html">Om oss</a>
+
+
+                    <div class="dropDownLanguage">
+                        <a href="solution.html">English</a>
+                        <a href="NOsolution.html" class="active2">Norsk</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropDownLanguage tablets">
+            <a href="solution.html">English</a>
+            <a href="NOsolution.html" class="active2">Norsk</a>
+        </div>
+    </nav>
+
+    <main class="main">
+        <section>
+            <header>
+                <h1 tabindex="0">Løsningen</h1>
+            </header>
+            <p tabindex="0">For å svare på dette problemet introduserer vi vår løsning <b>GreenRoutine</b>. GreenRoutine er både en app og en maskin som jobber mot å gi mennesker en grunn til å resirkulere. Vår idé fungerer på en simpel måte, jo mer du resirkulerer med våre maskiner, desto flere poeng får du. Poengene kan senere bli brukt i appen mot å få rabatter og priser. GreenRoutine er løsningen mot å gjøre flere mennesker aktivt engasjert i å resirkulere søppel.</p>
+
+            <div class="homeVideo">
+                <video controls poster="../Pictures/NOthumbnail.png" title="Green Routine - video" aria-label="En video som viser løsningen vår på det nevnte problemet - Green Routine">
+                    <source src="../Pictures/NOGreenRoutine.mp4" type="video/mp4">
+                    Nettleseren din støtter ikke HTML5 video.
+                </video>
+            </div>
+
+            <br><br>
+            <h2 class="sideTitles" tabindex="0">Hvordan fungerer applikasjonen?</h2>
+
+            <p tabindex="0">Når du først logger deg inn i appen, får du opp en meny med din egen QR-kode. Dette er koden som også brukes for å kunne starte opp maskinen. Med andre ord, så er appen og maskinen koblet sammen. Appen har en oversikt over poenglisten din og antallet poeng du har samlet opp fra å resirkulere. Du har også statistikk over hvor mye av hver søppelsort du har kastet på en ukentlig basis, og nivåbaserte utfordringer slik at du kan gå opp i nivå og samle mer poeng. I tillegg har du en kuponskategori hvor du kan se hva slags type tilbud du får. Tilbudene varierer med tiden. </p>
+            <br>
+            <div class="textBelow">
+                <div class="SlideShowBox" style="display: none;">
+                    <h3 class="slideHeader"></h3>
+                    <img class="imageTag" value="app">
+                    <p class="imageText"></p>
+                    <p class="slideNumber"></p>
+                    <div class="choices"><a  aria-label="til forrige slide" tabindex="0" onclick="back(true)"><span class="Back">&#10094</span></a><a tabindex="0" onclick="next(true)"  aria-label="til neste slide"><span class="Next">&#10095</span></a>
+                    </div>
+                </div>
+                <p tabindex="0" class="paragrafBelow">Du kan se mer om appen <a href="NOapp.html">HER</a></p>
+            </div>
+            <br>
+            <h2 class="sideTitles" tabindex="0">Hvordan fungerer maskinen?</h2>
+            <p tabindex="0">En luke åpnes når du holder QR-koden på din mobilskjerm mot maskinens hovedskjerm. Dette er åpningen hvor du sender ditt avfall til resirkulering. Maskinen har en fargesensor som skiller mellom hver pose ut i fra fargen.</p>
+            <br>
+            <p tabindex="0">Etter at du har skannet din personlige QR-kode, vil du merke deg at skjermen på maskinen vil muntlig og skriftlig fortelle deg om din personlige QR-kode er gyldig eller ei. Skjermen vil også vise deg en rød eller en grønn farge som indikerer denne gyldigheten. </p>
+            <br>
+            <p tabindex="0">Vi ønsker at alle brukerne våre skal ha et lett møte med gjenvinningsmaskinene våres. Derfor gir skjermen instruksjoner i form av animasjoner, ved muntlig forklaring eller med tekst om hvordan du kan resirkulere. Disse instruksjonene kan slås av dersom man ønsker det. Animasjonen vår kjøres i omtrent ett minutt. Etter at det har gått fem minutter, lukker maskinen automatisk luken. Du kan også velge å lukke luken manuelt ved å skanne QR-koden din på hoveddisplayet igjen.</p>
+            <br>
+            <div class="textBelow">
+                <div class="SlideShowBox" style="display: none;">
+                    <h3 class="slideHeader"></h3>
+                    <img class="imageTag slideMachine">
+                    <p class="imageText slideMachineText"></p>
+                    <p class="slideNumber slideNumberMachine"></p>
+                    <div class="choices"><a  aria-label="til forrige slide" tabindex="0" onclick="back(false)"><span class="Back">&#10094</span></a><a tabindex="0" onclick="next(false)"  aria-label="til neste slide"><span class="Next">&#10095</span></a>
+                    </div>
+                </div>
+                <p tabindex="0" class="paragrafBelow">Du kan se mer om maskinen <a href="NOmachine.html">HER</a></p>
+            </div>
+            <br>
+            <h2 class="sideTitles" tabindex="0">Hvorfor bruke GreenRoutine:</h2>
+            <p tabindex="0">Toveisløsningen vår er å tilby en personlig, fleksibel og morsom måte å gjøre resirkulering til en del av din daglige rutine. Med vår løsning vil du få kraften til å gjøre skitt og søppel til gull. Vi er troende på at enhver handling teller. Ved å bruke appen vår, vil handlingene dine ha umiddelbare positive konsekvenser for lokalsamfunnet ditt. Vi skaper en bevegelse - en økokultur som dreier seg om å få livet i din kommune til å blomstre. Bli miljøborger i dag ved å implementere Green Routine i hverdagen din.</p>
+            <br>
+            <h2 class="sideTitles" tabindex="0">For brukere med nedsettinger:</h2>
+            <a tabindex="0">
+                <ul>Svekket syn:</ul>
+                <li>Større skrift på appen og teksten på maskinens skjerm. Maskinen har også en animasjon som viser hva og hvordan en person kan resirkulere inn i maskinen. Dette vil bli forklart muntlig og med undertekster.</li>
+            </a>
+            <br>
+            <a tabindex="0">
+                <ul>Hørselsnedsettninger: </ul>
+                <li>Animasjonen på skjermen på maskinen vil både bli muntlig forklart og med undertekster. Dette vil hjelpe mennesker som har hørselsproblemer til å kunne følge teksten på skjermen, slik at de forstår hvordan man kan resirkulere.</li>
+            </a>
+            <br>
+            <a tabindex="0">
+                <ul>Nedsatt motorisk evne:</ul>
+                <li>Verbal navigasjon på animasjonen og på appen.</li>
+            </a>
+            <br>
+            <a tabindex="0">
+                <ul>Blind:</ul>
+                <li>Kan bruke lyd ved hjelp av muntlig forklaring både på appen og på skjermen til maskinen.</li>
+            </a>
+            <br>
+            <a tabindex="0">
+                <ul>Punktskrift:</ul>
+                <li>Potensielt en senere utviklet funksjon.</li>
+            </a>
+            <br>
+            <a tabindex="0">
+                <ul>Personer som er fargeblinde:</ul>
+                <li>Vi bruker først og fremst fargene grønn, blå og hvit i løsningen vår. Vi har valgt disse fargene for å matche personer som er grønn / rød fargeblinde.</li>
+            </a>
+            <br><br>
+            <img class="statProblem" src="../Pictures/relevancySolution.png" tabindex="0" title="How relevant is this problem today?" alt="Statistikk av hvor relevant problemet er i dag fra 1 til 6. 0 komma 8 prosent sier problemet er totalt irelevant idag. 0 komma 8 prosent sier det er delvis irelevant. 9 komma 2 prosent er mener det er både relevant og irelevant. 30 komma 3 prosent mener det er relevant og 58 komma 8 prosent mener det er svært relevant">
+            <p tabindex="0">Gjennom en anonym undersøkelse spurte vi totalt 119 personer: «Hvor relevant er dette problemet i dag?». De fleste som vi ba om å gjennomføre undersøkelsen, er av den yngre generasjonen, først og fremst i aldersgruppen 18-20. Av disse menneskene svarte 58,8% på at dette er et veldig relevant problem i dag. Vi hadde også totalt 30,3% som så dette problemet som «veldig relevant». Dette gir oss en god indikasjon på at flertallet av den yngre generasjonen i Oslo mener at dette er et viktig problem som trenger en passende løsning.</p>
+            <br><br><br>
+            <p tabindex="0">Kontakt oss for tips om hvordan du kan forbedre din brukeropplevelse. <b>Send oss en mail </b><a tabindex="0" id="mail" href="mailto:s345873@oslomet.no">HER.</a></p>
+        </section>
+    </main>
+
+    <script>
+        //på grunn av problemer og komplikasjoner måtte vi slå av pathing til final.js fordi flere elementer ikke dukket opp.  denne er nå også kanskje utdatert
+
+        var teller1 = 0;
+        var teller2 = 0;
+
+        var imageTag = document.getElementsByClassName('imageTag');
+        var imageText = document.getElementsByClassName('imageText');
+        var SlideShowBox = document.getElementsByClassName('SlideShowBox');
+        var paragrafBelow = document.getElementsByClassName("paragrafBelow")
+        var slideNumber = document.getElementsByClassName("slideNumber");
+        var slideHeaders = document.getElementsByClassName("slideHeader");
+
+
+        function NewAppPictures() {
+
+            var HomeText1 = "Denne siden er det første du ser når du har startet appen. Først og fremst viser siden QR koden til brukeren som er essensielt for bruk av maskinen og tre knapper som leder til kupongsiden, utfordringer og brukerens poeng og poengliste.";
+
+            var HomeText2 = "Nederst på siden er det et hjelpeikon som forklarer alt om siden. Ved siden av hjelpeikonet er det også ikon for innstillinger dersom brukeren vil endre på noe info og profil hvor man også kan endre navn eller slette brukeren.";
+
+            var points = "På toppen har brukeren en meny med logoen i hjørnet som bringer dem tilbake til hjemmesiden. Ved siden av logoen er det et hjelpeikon, profil og innstillinger som på hjemmesiden.<br><br>Under menyen vises det brukeren sin poeng og en poengliste som kan endres i innstillinger. Nederst er der en tilbake knapp som bringer dem tilbake hjemmesiden.";
+
+            var Challenges = "På utfordringssiden har brukeren tre rangeringsutfordringer som er utfordringer som kan handle om for eksempel antall kilo søppel kastet.<br><br>Over finnes det knapper som lar brukeren navigere mellom \"statistikk\" og \"Utfordrings siden.\"";
+
+            var Statistics = "På statistikk siden har brukeren en oversikt over sitt gjennomsnittlige poeng som kommer av resirkulering innenfor de tre kategoriene matavfall, restavfall og plastavfall.<br><br>Brukeren kan navigere til siden ved å trykke på knappen “statistics”. Tilbakeknappen nederst på appen vil lede brukeren tilbake hjemmesiden.";
+
+            var Coupons = "På denne siden har brukeren tilgang til kuponger gjennom ulike kategorier som mat og drikke. Når kupongen er valgt kan kupongen brukes med engang eller spares til senere ved å kjøpe kupongen, med poeng.";
+
+            var YourCoupons = "Kupongene kjøpt fra før kan ses ved å velge kategorien “Mine kuponger” som viser forhåndskjøpte kuponger som brukeren har valgt å spare til senere.";
+
+            var Map = "Vår integrerte kartfunksjon kan nås via hovedmenyen. Denne siden viser deg hvor din nærmeste Green Routine-maskin ligger.<br><br>Denne funksjonen ble implementert på grunn av svarene på vår offentlige undersøkelse."
+
+
+            var images = [{
+                Image: "../Pictures/NOappHome.png",
+                info: HomeText1,
+                altTekst: "En bildeskisse som viser hjemmesiden til appen Green Routine. Siden viser QR-koden til brukeren som er avgjørende for bruken av maskinen og fire knapper, som fører til kupongsiden, utfordringer, nærmeste maskiner og brukerens poeng med en toppliste.",
+                Title: "Hjemmesdien til appen Green Routine",
+                Slide: "1 ut av 8",
+                headers: "Hjemmeside",
+                wid: "25%", 
+            }, {
+                Image: "../Pictures/NOappHome.png",
+                info: HomeText2,
+                altTekst: "Nederst på siden er det en hjelper som forklarer alt om siden. Ved siden av hjelpikonet er det også et ikon for innstillinger som brukeren vil endre på noe info og profil der du kan endre navn, språk eller slette brukerkontoen.",
+                Title: "Mer inforsmasjon om hjemmesiden til appen",
+                Slide: "2 ut av 8",
+                headers: "Hjemmeside",
+                wid: "25%",
+            }, {
+                Image: "../Pictures/NOappPoints.png",
+                info: points,
+                altTekst: "Øverst har brukeren en meny med logoen i hjørnet som bringer dem tilbake til hjemmesiden. Ved siden av logoen er det et hjelpikon, profil og innstillinger som på hjemmesiden. Menyen viser brukerens poeng og en liste over punkter som kan endres i innstillingene. Nederst er det en tilbake-knapp som bringer dem tilbake til hjemmesiden.",
+                Title: "En side for dine poengene og poengliste av andres score",
+                Slide: "3 ut av 8",
+                headers: "Poeng og poegnliste",
+                wid: "26%",
+            }, {
+                Image: "../Pictures/NOappChallenges.png",
+                info: Challenges,
+                altTekst: "På siden med utfordringer har brukerne tre rangeringsutfordringer som for eksempel kan dreie seg om en mengde søppel som kastes. Over er det knapper som lar brukerne navigere gjennom statistikk og utfordringssiden.",
+                Title: "En side med dine utfordringer som gir poeng for kuponger og rank opp poeng",
+                Slide: "4 ut av 8",
+                headers: "Utfordringer",
+                wid: "25%",
+            }, {
+                Image: "../Pictures/NOappStatistics.png",
+                info: Statistics,
+                altTekst: "Brukerne har oversikt over gjennomsnittlig poengsum. Poengbeløpet er avhengig av hvordan du resirkulerer innen de tre kategoriene matavfall, ikke-resirkulerbart avfall og plastemballasje. Brukerne kan navigere til siden ved å klikke på knappen “Statistikk” på utfordringssiden. Knappen “Tilbake” fører deg tilbake til hjemmesiden.",
+                Title: "Statistikk siden inneholder den gjennomsnittlige søppelet fra de ulike kategorier som plast",
+                Slide: "5 ut av 8",
+                headers: "Statistikk",
+                wid: "26%",
+            }, {
+                Image: "../Pictures/NOappCoupons.png",
+                info: Coupons,
+                altTekst: "På denne siden har brukeren tilgang til kuponger gjennom forskjellige kategorier som for eksempel mat og drikke. Kupongene kan brukes med en gang med QR eller lagres for senere ved å kjøpe kupongen med poengene du har samlet.",
+                Title: "Her finner du kupongene gjennom kategorie indeksen",
+                Slide: "6 ut av 8",
+                headers: "Kuponger",
+                wid: "27.5%",
+            }, {
+                Image: "../Pictures/NOappMyCoupons.png",
+                info: YourCoupons,
+                altTekst: "Kupongene du allerede har kjøpt, kan vises ved å klikke på kategorien “Dine kuponger”. Kategorien viser alle forhåndsinnkjøp brukerne har valgt å lagre for senere.",
+                Title: "Gjennom kategori baren kan du velge dine kuponger og se dine forhånds kjøpte kuponger",
+                Slide: "7 ut av 8",
+                headers: "Dine kuponger",
+                wid: "27%",
+            }, {
+                Image: "../Pictures/NOappMap.png",
+                info: Map,
+                altTekst: "Vår integrerte kartfunksjon kan nås via hovedmenyen. Denne siden viser deg hvor din nærmeste Green Routine-maskin ligger. Denne funksjonen ble implementert på grunn av svarene på vår offentlige undersøkelse.",
+                Title: "Et kart over de nærmeste maskiner i forhold til deg",
+                Slide: "8 ut av 8",
+                headers: "Kart av de nærmeste maskiner",
+                wid: "26%",
+            }]; //app bilder
+
+            if (teller1 >= images.length) { //gjør lysbildefremvisningen kontinuerlig
+                teller1 = 0;
+            }
+            if (teller1 < 0) {
+                teller1 = images.length - 1;
+            }
+
+            imageTag[0].src = images[teller1].Image;
+            imageTag[0].tabIndex = "0";
+            imageText[0].tabIndex = "0";
+            imageTag[0].alt = images[teller1].altTekst;
+            imageTag[0].title = images[teller1].Title;
+            imageText[0].innerHTML = images[teller1].info;
+            slideNumber[0].innerHTML = images[teller1].Slide;
+            slideNumber[0].tabIndex = "0";
+            slideHeaders[0].innerHTML = images[teller1].headers;
+            slideHeaders[0].tabIndex = "0";
+            
+            imageTag[0].style.width = images[teller1].wid;
+
+            teller1 += 1;
+        }
+
+        function NewMachinePictures() {
+
+            var first = "1. Illustrasjonen ovenfor avbilder hva du først vil imøtekomme når du går til en av våre maskiner.";
+
+            var first2 = "Maskinen vår har en innebygd skjerm. Under den ligger en skanner som registrerer din personlige QR-kode. Ved å skanne QR-koden vil luken til venstre for deg åpne, og du vil ha muligheten til å putte posene dine inni.";
+
+            var second = "Inni maskinen er en luke, en fargeskanningaenhet og en vekt. Et transportbånd flyttee søppelsekkene dine til vekten. Den vil registrere vekten på søppelposene dine og gjøre det om til en viss mengde poeng.";
+
+            var third = "Avbildet ovenfor er baksiden av maskinen vår. Tre rør sorterer søppelsekkene dine til hver sin avfallsbeholder.";
+
+            var images = [{
+                Image: "../Pictures/Machine3.png",
+                info: first,
+                altTekst: "Illustrasjonen over viser hva du først vil møte når du besøker en av våre maskiner. Den har en innebygd skjerm og en QR-kodeskanner.",
+                Title: "Skisse av maskinen vår med en innebygd skjerm og QR-kodeskanner",
+                Slide: "1 ut av 4",
+                headers: "Maskinen",
+                wid: "42%",
+            }, {
+                Image: "../Pictures/GreenRoutineMachine2.png",
+                info: first2,
+                altTekst: "En skisse av maskinen etter å ha blitt aktivert av QR-koden der luken er åpnet og posen kan plasseres i maskinen.",
+                Title: "Maskinen etter at QR-koden er skannet",
+                Slide: "2 ut av 4",
+                headers: "Maskinen",
+                wid: "34%",
+            }, {
+
+                Image: "../Pictures/Machine2.png",
+                info: second,
+                altTekst: "Inni maskinen er det en luke, en fargeskanningsenhet og en vekt. Et transportbånd flytter søppelsekkene dine til vekten. Den vil registrere vekten på søppelsekkene dine og gjøre den om til en viss mengde poeng.",
+                Title: "Skisse av maskinen vår. Denne skissen viser at maskinen inneholder en luke, en fargeskanningsenhet og en vekt",
+                Slide: "3 ut av 4",
+                headers: "Fargesensoren og vektmåleren",
+                wid: "44%",
+            }, {
+                Image: "../Pictures/Machine1.png",
+                info: third,
+                altTekst: "På skissen er det tre rør som sorterer søppelsekkene dine til hver separate søppel.",
+                Title: "Skissen viser baksiden av maskinen vår. Det går tre rør fra maskinen til forskjellige avfallsbrønner.",
+                Slide: "4 ut av 4",
+                headers: "Hvor søppelet blir sortert",
+                wid: "50%",
+            }]; //machine pictures
+
+            if (teller2 >= images.length) { //gjør lysbildefremvisningen kontinuerlig
+                teller2 = 0;
+            }
+            if (teller2 < 0) {
+                teller2 = images.length - 1;
+            }
+
+
+            imageTag[1].src = (images[teller2].Image);
+            imageTag[1].tabIndex = "0";
+            imageText[1].tabIndex = "0";
+            imageTag[1].alt = images[teller2].altTekst;
+            imageTag[1].title = images[teller2].Title;
+            imageText[1].innerHTML = images[teller2].info;
+            slideNumber[1].innerHTML = images[teller2].Slide;
+            slideNumber[1].tabIndex = "0";
+            slideHeaders[1].innerHTML = images[teller2].headers;
+            slideHeaders[1].tabIndex = "0";
+            
+            imageTag[1].style.width = images[teller2].wid;
+
+            teller2 += 1;
+        }
+
+        paragrafBelow[0].style.display = "none";
+        paragrafBelow[1].style.display = "none";
+        SlideShowBox[0].style.display = "block";
+        SlideShowBox[1].style.display = "block";
+
+        var interval1;
+        var interval2;
+
+        NewAppPictures();
+        interval1 = setInterval(NewAppPictures, 20000); // kjører appens lysbildefremvisning hvert 10. sekund
+        NewMachinePictures();
+        interval2 = setInterval(NewMachinePictures, 20000); // kjører lysbildefremvisning av maskinen hvert 10. sekund
+
+
+        function back(boolean) {
+            if (boolean) {
+                teller1 -= 2;
+                clearInterval(interval1);
+                NewAppPictures();
+                interval1 = setInterval(NewAppPictures, 20000); // kjører appens lysbildefremvisning hvert 10. sekund
+            } else {
+                teller2 -= 2;
+                clearInterval(interval2);
+                NewMachinePictures();
+                interval2 = setInterval(NewMachinePictures, 20000); // kjører lysbildefremvisning av maskinen hvert 10. sekund
+
+            }
+        }
+
+        function next(boolean) {
+            if (boolean) {
+                clearInterval(interval1);
+                NewAppPictures();
+                interval1 = setInterval(NewAppPictures, 20000); // kjører appens lysbildefremvisning hvert 10. sekund
+            } else {
+                clearInterval(interval2);
+                NewMachinePictures();
+                interval2 = setInterval(NewMachinePictures, 20000); // kjører lysbildefremvisning av maskinen hvert 10. sekund
+            }
+        }
+    </script>
+
+    <footer>
+        <br>
+        <h2><b tabindex="0">Green Routine</b></h2>
+        <br>
+        <p tabindex="0">Postboks 4, St. Olavs plass</p>
+        <p tabindex="0">0130 Oslo</p>
+        <p tabindex="0">Norge</p>
+        <p tabindex="0">Tlf.: 67 23 50 00</p>
+    </footer>
+
+
+</body>
+
+</html>
